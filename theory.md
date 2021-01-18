@@ -2,7 +2,8 @@ Exercise 1 - Theory questions
 -----------------------------
  
  ### What is the difference between concurrency and parallelism?
- > *Your answer here*
+ > If to prosesses happens in parallell they run at the same time. You need a multicore prosessor to do this. 
+ Concurrensy means that two tasks can start, run and in overlapping time periods (not simultaneously).
  
  ### Why have machines become increasingly multicore in the past decade?
  > *Your answer here*
