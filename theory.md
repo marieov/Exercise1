@@ -26,7 +26,7 @@ Exercise 1 - Theory questions
  
  
  ### What is the Go-language's "goroutine"? A C/POSIX "pthread"?
- > *Your answer here*
+ > POSIX Threads (or Pthreads) is a POSIX standard for threads in C. 
  
  ### In Go, what does `func GOMAXPROCS(n int) int` change? 
  > *Your answer here*
