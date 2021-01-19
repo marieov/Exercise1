@@ -10,7 +10,8 @@ Exercise 1 - Theory questions
  
  ### Why do we divide software (programs) into concurrently executing parts (like threads or processes)?
  (Or phrased differently: What problems do concurrency help in solving?)
- > %%%%%%
+ > (Not sure if I understood the question.)
+ Simultaneous execution of transactions over a shared database can create several data integrity and consistency problems. E.g lost updates, uncommitted data, and inconsistent retrievals. Concurrency help in solving these problems. 
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  > Scaling the application to concurrent and parallel mode is very easy when working with Go. Simply append the "go" keyword to the function and you can quickly scale up the application execution.
