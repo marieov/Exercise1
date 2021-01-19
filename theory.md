@@ -6,7 +6,7 @@ Exercise 1 - Theory questions
  Concurrensy means that two tasks can start, run and in overlapping time periods (not simultaneously).
  
  ### Why have machines become increasingly multicore in the past decade?
-> To preforme more tasks simontaniously. Prallelism is not possible om a single core prosessor. 
+> To preform more tasks simontaniously. Prallelism is not possible om a single core prosessor. 
  
  ### Why do we divide software (programs) into concurrently executing parts (like threads or processes)?
  (Or phrased differently: What problems do concurrency help in solving?)
