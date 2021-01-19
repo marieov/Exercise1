@@ -13,8 +13,7 @@ Exercise 1 - Theory questions
  > %%%%%%
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
- (Come back to this after you have worked on part 4 of this exercise)
- > %%%%%%
+ > Scaling the application to concurrent and parallel mode is very easy when working with Go. Simply append the "go" keyword to the function and you can quickly scale up the application execution.
  
  ### What is the conceptual difference between threads and processes?
  > A process is a program that has been loaded into memory along with all the resources it needs to operate. 
@@ -27,9 +26,10 @@ Exercise 1 - Theory questions
  
  ### What is the Go-language's "goroutine"? A C/POSIX "pthread"?
  > POSIX Threads (or Pthreads) is a POSIX standard for threads in C. 
+ > GoRoutines are a Golang wrapper on top of threads, and managed by Go runtime rather than the OS. 
  
  ### In Go, what does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > Adds int number of execution cores. Once we create Goroutines, they can be executed together in different cores, enabling parallel processing and speeding up the application.
 
 
 
